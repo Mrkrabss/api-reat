@@ -16,9 +16,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-@CrossOrigin
 @Controller 
-@RequestMapping(path="/v1/device") 
+@RequestMapping(path="/public/v1/device") 
 public class MainController {
   @Autowired 
          
